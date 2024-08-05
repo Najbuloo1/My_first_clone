@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border :border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo {
+    height: 60px;
+    width: 100px;
+    
+}
+.nav_search{
+    width: 655px;
+}
+.nav_search:hover{
+    border: 3px solid orange;
+    border-radius: 5.5px 5.5px 5.5px 5.5px;
+}
+.logo{
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+    height: 57px;
+    /* margin-top: 2px; */
+}
+.border{
+    border: 1px transparent;
+}
+.border:hover{
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: 1px;
+}
+
+.Deli{
+    color: #ccc;
+    margin-left: 15px ;
+    font-size: 12px;
+    height: 14px;
+    border: none;
+}
+ .nav_add{
+    border: none;
+    /* padding: 0px 9px 0px 9px; */
+    border: none;
+
+ }
+.add_icon{
+    margin-left: 13px;
+    display: flex;
+    align-items: center;
+}
+.nav_add:hover{
+    border: 1px solid red;
+    padding: 7px 7px 7px 7px;
+}
+
+/* ## */
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.search_sel{
+width: 50px;
+background: #e6e6e6;
+border-top-left-radius: 4px ;
+border-bottom-left-radius: 4px;
+border: none;
+}
+
+.search_input{
+    width: 100%;
+    height: 21px;
+    font-size: 1em;
+    padding: 7px 10px 10px 0px;
+    border: none
+}
+.search_icon{
+    width: 45px;
+    color: black;
+    background: #cd9033;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fly_loc{
+    background-color: #131921;
+}
+
+.fly_sel{
+    background-color: #131921;
+    color: white;
+    margin: 10px;
+    margin-top: 17px;
+    border: none;
+    
+}
+.fly_loc:hover{
+    border: 1px solid red;
+}
+
+/* #% */
+
+.Hsign_in{
+    margin-left: 3px;
+    font-size: 12px;
+}
+.acc_li{
+    font-size: 14px;
+}
+.sign_in:hover{
+    border: 1px solid red;
+    padding: 7px 7px 7px 7px;
+}
+/* ## */
+.return_order{
+    margin-left: 6px;
+}
+.return_nav{
+    font-size: 12px;
+}
+.order_nav{
+    font-size: 14px;
+}
+.return_order:hover{
+    border: 1px solid red;
+    padding: 5px 5px 5px 5px;
+}
+.cart i{
+    font-size: 26px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart:hover{
+    border: 1px solid red;
+    padding: 4px 4px 4px 4px;
+}
+
+/* @Panel@ */
+
+.panel{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background:#232f3e;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: space-evenly; */
+}
+.all{
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.fa-solid i {
+    
+    /* padding: 8px 9px 8px 9px; */
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.panel_ops{
+    display: flex;
+    margin-left:px;
+    color: white;
+    width: 90%;
+    font-size: 14px;
+    
+}
+.panel p{
+display: inline;
+margin-left: 18px;
+}
+
+/* <!-- -#Hero Section#- --> */
+.hero_sec{
+    background-image: url(./images/71Ie3JXGfVL._SX3000_.jpg);
+    height: 250px;
+    background-size: cover;
+}
+/* shop box */
+
+.shop_sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dafdd9;
+}
+
+.box{
+    /* border: solid 5px black; */
+    height: 365px;
+    width: 23%;
+    padding: 20px 0px 15px 0px;
+}
+.box1{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_1pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+/* see more */
+
+.see_more{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.box_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box 2 */
+
+.box2{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_2pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+
+/* box3 */
+
+.box3{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_3pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+/* box4 */
+
+.box4{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_4pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+/* box5 */
+.box5{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_5pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+.box6{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_6pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+.box7{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_7pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+.box8{
+    background: #fff;
+    margin-top: 7px;
+}
+.box_8pic{
+    height: 305px;
+    background-size: cover;
+    margin-top: 1rem;
+
+}
+
+/* footer */
+
+.footer{
+    /* border: solid 18px #cce2ca; */
+    background: #cce2ca;
+    padding: 10px;
+}
+
+.foot_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    border: 1px solid #afaeae;
+    padding: 0 20px;
+}
+
+.text_1{
+    font-size: 13px;
+}
+.butt_in{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 28px;
+    background-color: #ffcd50;
+    border-radius: 6px;
+    border: none;
+    text-shadow: 0 1px 0 #ffe093;
+    margin: 5px 0px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.text_2{
+    font-size: 11px;
+}
+/* baxk top */
+.back_top{
+    background: #37475a;
+    font-size: 13px;
+    text-align: center;
+    line-height: 49px;
+    font-weight: 700;
+    padding-top: 15px 0px;
+}
+
+.foot_2{
+    color: #ffffff;
+    height: 300px;
+    background: #232f3e;
+    display: block;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right:100px ;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 14px;
+    line-height: 1.7rem;
+}
+ul p{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+/* footer3 */
+
+.foot_3{
+    background: #232f3e;
+    height: 70px;
+    width: 100%;
+    border-top: 0.5px solid #5f5d5d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    padding-left: px;
+    padding-right: 250px;
+}
+.foot_logo{
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+    height: 57px;
+    width: 100px;
+}
+.dte1{
+    border: solid 1px white;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    margin: 0px 7px 10px;
+    color: white;
+    margin-left: 75px;
+}
+.dte2{
+    border: solid 1px white;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    margin: 0px 7px 10px;
+    color: white;
+}
+.dte3{
+    border: solid 1px white;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    margin: 0px 7px 10px;
+    color: white;
+}
+
+/* last fotter */
+
+.foot_last{
+    background-color:#131a22 ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.last_text_main{
+    height: 37;
+    display: flex;
+    justify-content: center;
+}
+.last_text{
+    color: #ccc;
+    margin-left: 18px;
+    font-size: 13px
+}
+
+.lic{
+    color: #ddd;
+    font-size: 13px;
+    margin-top: 5px;
+}

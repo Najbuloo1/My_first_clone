@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border :border-box;
+    
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.login{
+    height: 540px;
+    width: 312px;
+    padding: 20px 26px;
+    border: solid 0.5px rgb(186, 186, 186);
+    border-radius: 5px;
+}
+.ap_from_label{
+    margin-top: 25px;
+    font-size: 13px;
+    /* padding: 0px 0px 2px 2px; */
+    font-weight: 550;
+}
+.ap_from_label1{
+    margin-top: 15px;
+    font-weight: 550;
+}
+.ap_from_label2{
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 550;
+}
+.ap_from_label3{
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 550;
+}
+.login_input{
+    height: 24px;
+    width: 297px;
+    border: solid 0.5px rgb(98, 84, 84);
+    border-radius: 5px;
+    padding: 3px 7px;
+    margin-top: 2px;
+}
+.pass_text{
+    margin-top: 7px;
+    margin-left: 16px;
+    font-size: 12px;
+}
+.submit{
+    background: #ffd814;
+    width: 297px;
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 6px;
+    margin: 10px;
+    cursor: pointer;
+}
+.submit:hover{
+    background:#cdae11;
+}
+.legal_text{
+    font-size: 12px;
+    margin: 15px;
+}
+.hr{
+    margin: 20px;
+}
+.text2{
+    font-size: 13px;
+    margin-bottom: 4px;
+    font-weight: 550;
+    padding-left: 10px;
+}
+.foot_text2{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+/* inner ::after */
+
+.inner_foot{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_after{
+    border-top: 1px solid rgb(192, 186, 186);
+    height: 36px;
+    width: 655px;
+}
+
+.foot_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.foot_legal{
+    height: 14px;
+    width: 234px;
+    font-size: 11px;
+}
+.foot_end a{
+    padding-right: 16px;
+}
+.footer_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    height: 50px;
+    margin-top: 9px;
+    margin-right: 4px;
+    font-size: 11px;
+    align-items: center;
+}
